@@ -1,0 +1,35 @@
+.nav-menu {
+  margin: 0 auto 6% auto;
+  width: 70%;
+  font-size: 1.0rem;
+  letter-spacing: 0.2rem;
+  white-space: nowrap;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    list-style: none;
+    box-sizing: border-box;
+
+    li {
+      display: table-cell;
+
+      a {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 12px;
+        border-top: 2px solid #CCCCCC;
+        text-align: center;
+        transition: all ease 0.2s;
+
+        &:hover {
+          opactiy: 0.7;
+        }
+      }
+    }
+  }
+}

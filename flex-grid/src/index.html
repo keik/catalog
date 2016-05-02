@@ -8,9 +8,15 @@
 
     <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
     <link rel="stylesheet" href="bundle.css">
+    <style>
+      #sample {background:url(?holder.js/200x200?theme=social) no-repeat}
+    </style>
+
+
+
   </head>
   <body>
-
+    <div id="sample" class="holderjs"></div>
     <main class="container">
 
       <header>
@@ -38,6 +44,35 @@
           <li><a href="#">MENU_5<br>DESCRIPTION</a></li>
         </ul>
       </nav>
+
+      <section class="flex-container -2x1">
+        <div class="row">
+          <div class="col-3 holderjs" style="background-image: url(?holder.js/200x200);"></div>
+          <div class="col-6">
+            <div class="holderjs" style="height: 50%; background-image: url(?holder.js/200x200);"></div>
+            <div class="row" style="height: 50%">
+              <div class="col-6">
+                <a href="#" class="hover-scale">
+                  <div class="hover-scale__img holderjs" style="background-image: url(?holder.js/200x200);"></div>
+                  <p class="hover-scale__desc">TODO</p>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="hover-scale">
+                  <div class="hover-scale__img holderjs" style="background-image: url(?holder.js/200x200);"></div>
+                  <p class="hover-scale__desc">TODO</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <a href="#" class="hover-scale">
+              <div class="hover-scale__img holderjs" style="background-image: url(?holder.js/200x200);"></div>
+              <p class="hover-scale__desc">TODO</p>
+            </a>
+          </div>
+        </div>
+      </section>
 
     </main>
 
