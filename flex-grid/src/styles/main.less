@@ -2,11 +2,22 @@
 // @import (less) "../../node_modules/font-awesome/less/font-awesome.less";
 
 @import "variables.less";
-@import "nav-menu.less";
+
+@import "grid.less";
 @import "flex-container.less";
 @import "hover-scale.less";
+@import "misc.less";
+
+@import "header.less";
+@import "social-menu.less";
+@import "nav-menu.less";
+
+body {
+  margin: 0;
+  color: #444444;
+}
 
 .container {
-  width: @width-of-main;
+  min-width: @min-width-of-main;
   margin: 0 auto;
 }
